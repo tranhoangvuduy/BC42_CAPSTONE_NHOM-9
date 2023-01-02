@@ -174,6 +174,33 @@
     crossorigin="anonymous"></script>
   <!-- MY JS -->
   <script src="./js/style.js"></script>
+  <script>
+    let header = document.getElementById("header");
+    window.addEventListener("scroll", function () {
+      let sclY = this.scrollY; //scroll theo chieu doc
+      if (sclY > 0) {
+        header.style.height = "70px";
+        header.style.paddingTop = `0px`;
+        header.style.boxShadow = `0 3px 6px 0 rgb(0 0 0 / 7%)`;
+        header.style.transition = `all 0.65s`;
+        header.style.zIndex = `5`;
+        header.style.position = `fixed`;
+        header.style.width = "100%";
+      } else {
+        header.style.height = "90px";
+        header.style.backgroundColor = `white`;
+        header.style.transition = `all 0.65s`;
+        header.style.zIndex = `4`;
+        header.style.position = `absolute`;
+        header.style.boxShadow = `none`;
+        header.style.width = "100%";
+      }
+    });
+
+    document.querySelector(".menu").addEventListener("click", function () {
+      document.querySelector(".menu_manhinhnho").classList.toggle("showMenu");
+    });
+  </script>
 </body>
 
 </html>
