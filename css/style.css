@@ -390,10 +390,12 @@ img.img-curve:hover{
 
 
 
+
 }
 
 .w3l-stats .stats_info3 {
   margin-top: 24px;
+
 }
 
 /* Wearetrue */
@@ -891,6 +893,13 @@ h2.resp-accordion:first-child {
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .stats_info  {
+    width: 499px;
+  }
+  .stats_info3 {
+     margin-left: 17px
   }
   
 }
@@ -1537,4 +1546,32 @@ a, a:hover {
   }
 }
 
+
+.backToTop{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  visibility: hidden;
+  opacity: 0;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.backToTop i{
+  width: 50px;
+  height: 50px;
+  background:#dc4f72;
+  border-radius: 8px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  transition: all .2s;
+  box-shadow: -4px 4px 24px -10px #f55f8d;
+}
 
