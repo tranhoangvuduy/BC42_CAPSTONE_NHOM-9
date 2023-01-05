@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/hàn/capstone_bootstrap"
+		},
+		{
+			"path": "../../../../BC42_CAPSTONE_DUY-2"
+		},
+		{
+			"path": "../../../../../Desktop/hàn/BaitapJs_buoi6"
+		},
+		{
+			"path": "../../../../../Desktop/hàn/BaitapJs_buoi5"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BaitapJs_buoi6"
+	}
+}
