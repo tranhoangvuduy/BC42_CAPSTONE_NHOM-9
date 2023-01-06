@@ -1215,6 +1215,8 @@ h2.resp-accordion:first-child {
   background: #f3f6f9;
   border-radius: 50%;
   border: 3px solid #dc4f72;
+  margin-left: 0px;
+  left: 0;
 }
 
 .Whatpeople_item {
@@ -1544,7 +1546,8 @@ a:hover {
   transition: all .2s;
   box-shadow: -4px 4px 24px -10px #f55f8d;
 }
-.pss i{
+
+.pss i {
   font-size: 30px;
   opacity: 0.2;
 }
@@ -1584,8 +1587,20 @@ a:hover {
 }
 
 
+
 @media screen and (max-width: 480px) {
   .stats_info {
     width: 350px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .img-circle {
+    margin-left: 32px;
+
+  }
+  .pss i {
+    left: 119px;
   }
 }
