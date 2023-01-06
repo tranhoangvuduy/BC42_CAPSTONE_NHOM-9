@@ -1595,12 +1595,12 @@ a:hover {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .img-circle {
-    margin-left: 32px;
+    margin-left: 40px;
 
   }
   .pss i {
-    left: 119px;
+    left: 128px;
   }
 }
