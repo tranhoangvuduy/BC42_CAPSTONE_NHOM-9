@@ -1603,4 +1603,7 @@ a:hover {
   .pss i {
     left: 128px;
   }
+  .stats_info {
+    width: 325px;
+}
 }
